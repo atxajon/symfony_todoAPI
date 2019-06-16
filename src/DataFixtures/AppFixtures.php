@@ -10,7 +10,7 @@ class AppFixtures extends Fixture
 {
     public function load(ObjectManager $manager)
     {
-      for ($i = 1; $i < 10; $i++) {
+      for ($i = 1; $i <= 10; $i++) {
         $this->createToDo($manager, $i);
       }
     }
